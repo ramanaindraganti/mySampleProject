@@ -7,6 +7,8 @@ public class Employee implements Comparable<Employee> {
 	private String empName;
 	
 	private Double empSal;
+	
+	private String  phone;
 
 	public Employee(int empId, String empName, double empSal) {
 		this.empId = empId;
@@ -14,6 +16,14 @@ public class Employee implements Comparable<Employee> {
 		this.empSal = empSal;
 	}
 	
+	public String getPhone() {
+		return phone;
+	}
+
+	public void setPhone(String phone) {
+		this.phone = phone;
+	}
+
 	public Employee(){
 		
 	}
